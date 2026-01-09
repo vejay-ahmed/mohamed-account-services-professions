@@ -1,0 +1,23 @@
+body{
+background-color: blue;
+font-family:Arial, Helvetica, sans-serifki;
+}
+
+.navbar{
+
+color: white;
+background-color:rgb(19, 133, 9);
+float: right;
+padding: 15px;
+margin: 0px;
+gap: 50%;
+border: none;
+}
+
+.navbar a{
+gap:50%;
+padding: 20px;
+
+ 
+
+}
