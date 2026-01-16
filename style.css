@@ -2,7 +2,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     background: #f4f6f8;
+}.icon-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
+    color: #0b3d91; /* financial blue */
 }
+
+/* Logo Image */
+.icon-logo img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%; /* icon look */
+    border: 2px solid #0b3d91;
+}
+
+/* Text Styling */
+.icon-logo span {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+/* Subtitle */
+.icon-logo span small {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    letter-spacing: 2px;
+}
+
 
 header {
     background: gold;
@@ -36,4 +69,37 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background: #2bc17e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.service-card h3 {
+    color: #0b3d91;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0b3d91;
+    font-weight: 600;
+}
+
+nav a.active {
+    border-bottom: 2px solid #0b3d91;
 }

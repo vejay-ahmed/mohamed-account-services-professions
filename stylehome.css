@@ -1,0 +1,17 @@
+body{
+background-color: blue;
+text-align: center;
+justify-content: space-between;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 10px;
+}
+h2 {
+color: white;
+padding: 20px;
+}
+p{ color: yellowgreen;
+font-size: 18px;
+line-height: 1.6;
+margin: 20px 0;
+}
