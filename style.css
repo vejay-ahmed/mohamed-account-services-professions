@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -103,3 +104,44 @@ footer {
 nav a.active {
     border-bottom: 2px solid #0b3d91;
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+}
+
+header {
+    background: gold;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #328cc1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background: white;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+>>>>>>> cfbf10603ab2773f86e6913e11083c3cc67a2bff
