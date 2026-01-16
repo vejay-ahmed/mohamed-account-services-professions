@@ -1,23 +1,39 @@
-body{
-background-color: blue;
-font-family:Arial, Helvetica, sans-serifki;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
 }
 
-.navbar{
-
-color: white;
-background-color:rgb(19, 133, 9);
-float: right;
-padding: 15px;
-margin: 0px;
-gap: 50%;
-border: none;
+header {
+    background: gold;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.navbar a{
-gap:50%;
-padding: 20px;
+nav {
+    background: #328cc1;
+    padding: 10px;
+    text-align: center;
+}
 
- 
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+section {
+    padding: 20px;
+    background: white;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
