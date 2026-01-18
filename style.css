@@ -22,7 +22,7 @@ body {
 
 /* Text Styling */
 .icon-logo span {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 1.1;
     letter-spacing: 1px;
 }
@@ -34,6 +34,10 @@ body {
     font-weight: 600;
     color: #555;
     letter-spacing: 2px;
+}.icon-logo p{
+    margin: 0;
+    font-size: 50%;
+    
 }
 
 
