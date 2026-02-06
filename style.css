@@ -6,6 +6,7 @@ body {
 }.icon-logo {
     display: flex;
     align-items: center;
+    box-align: center;
     gap: 12px;
     font-family: 'Segoe UI', Arial, sans-serif;
     font-weight: 700;
@@ -37,6 +38,7 @@ body {
 }.icon-logo p{
     margin: 0;
     font-size: 50%;
+    
     
 }
 
